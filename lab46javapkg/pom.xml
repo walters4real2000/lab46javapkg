@@ -18,6 +18,35 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
+<distributionManagement>
+   <repository>
+  <id>lab46pkgfeed2</id>
+  <url>https://pkgs.dev.azure.com/sportmatrix98/lab46javapkg/_packaging/lab46pkgfeed2/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+  </distributionManagement>
+
+
+<repositories>
+   <repository>
+  <id>lab46pkgfeed2</id>
+  <url>https://pkgs.dev.azure.com/sportmatrix98/lab46javapkg/_packaging/lab46pkgfeed2/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+  </repositories>
+
+
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
